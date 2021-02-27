@@ -1,0 +1,90 @@
+/* formatando tags */
+ul{
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{ 
+    display: inline;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+
+a{
+    text-decoration: none;
+}
+
+html{
+    min-width: 370px;
+}
+
+.margem{
+    margin: 10px;
+    padding-top: 20px;
+}
+
+/* cabecalho */
+.cabecalho{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/* fontes */
+
+.fonte{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* textos do menu */
+
+.texto-menu{
+    font-size: 1.3em;
+}
+
+/* logo */
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+
+
+/* responsividade */
+
+@media (max-width: 824px){
+
+    .dnone{
+        display: none;
+    }
+    .texto-menu{
+        font-size: 1.7em;
+    }
+}
+
+@media (min-width: 824px){
+
+    .dnone1{
+        display: none;
+    }
+    
+    .texto-menu{
+        font-size: 1.5em;
+    }
+
+}
+
+

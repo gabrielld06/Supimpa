@@ -6,7 +6,7 @@ ul{
     padding: 0;
 }
 
-li{ 
+.navegacao li{ 
     display: inline;
 }
 
@@ -61,7 +61,18 @@ html{
 }
 
 
+.menu-mobile{
+    background-color: aquamarine;
+    
+}
 
+.menu-mobile li{
+    padding: 10px;
+}
+
+.escondido{
+    display: none;
+}
 
 /* responsividade */
 

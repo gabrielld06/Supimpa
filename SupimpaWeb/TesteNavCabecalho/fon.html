@@ -16,15 +16,45 @@
         
         <nav class="navegacao">
             <ul>
-                <li ><a href="#" class=" dnone1 texto-menu fonte menu">Menu</a></li>
+                <li ><a href="#" id="menu" class=" dnone1 texto-menu fonte menu">Menu</a></li>
                 <li class="margem"  ><a class="  dnone texto-menu fonte" href="#">Home</a></li>
                 <li class="margem"  ><a class=" dnone texto-menu fonte" href="#">Quem somos</a></li>
                 <li class="margem"  ><a class=" dnone texto-menu fonte" href="#">Midias socias</a></li>
                 <li class="margem"  ><a class=" dnone texto-menu fonte" href="#">Cadastro</a></li>
             </ul>
         </nav>
+
     </header> 
 
-    
+    <section>
+        <nav id="menumobile" class="menu-mobile escondido">
+            <ul>
+                <li ><a class="texto-menu fonte" href="#">Home</a></li>
+                <li ><a class="texto-menu fonte" href="#">Quem somos</a></li>
+                <li ><a class="texto-menu fonte" href="#">Midias socias</a></li>
+                <li ><a class="texto-menu fonte" href="#">Cadastro</a></li>
+                <li ><a id="esconder" class="texto-menu fonte" href="#">Esconder</a></li>
+                
+            </ul>
+        </nav>
+    </section>
+
+    <script>
+        const menu = document.getElementById("menu")
+        menu.addEventListener("click",()=>{
+            let gatilho = document.getElementById("menumobile")
+            gatilho.classList.remove("escondido")
+        })
+
+        const esconder = document.getElementById("esconder")
+        esconder.addEventListener("click",()=>{
+            let gatilho = document.getElementById("menumobile")
+            gatilho.classList.add("escondido")
+        })
+
+
+
+
+    </script>
 </body>
 </html>

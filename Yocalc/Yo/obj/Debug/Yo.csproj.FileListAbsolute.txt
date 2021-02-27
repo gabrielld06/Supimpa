@@ -1,0 +1,10 @@
+C:\Users\Gabriel\source\repos\Yo\Yo\obj\Debug\Yo.csprojAssemblyReference.cache
+C:\Users\Gabriel\source\repos\Yo\Yo\obj\Debug\Yo.Properties.Resources.resources
+C:\Users\Gabriel\source\repos\Yo\Yo\obj\Debug\Yo.csproj.GenerateResource.cache
+C:\Users\Gabriel\source\repos\Yo\Yo\obj\Debug\Yo.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\source\repos\Yo\Yo\bin\Debug\Yo.exe.config
+C:\Users\Gabriel\source\repos\Yo\Yo\bin\Debug\Yo.exe
+C:\Users\Gabriel\source\repos\Yo\Yo\bin\Debug\Yo.pdb
+C:\Users\Gabriel\source\repos\Yo\Yo\obj\Debug\Yo.exe
+C:\Users\Gabriel\source\repos\Yo\Yo\obj\Debug\Yo.pdb
+C:\Users\Gabriel\source\repos\Yo\Yo\obj\Debug\AgoraVai.Form1.resources

@@ -16,7 +16,8 @@
         
         <nav class="navegacao">
             <ul>
-                <li ><a href="#" id="menu" class=" dnone1 texto-menu fonte menu">Menu</a></li>
+                
+                <li ><button id="menu" class=" dnone1 texto-menu fonte menu">Menu</button></li>
                 <li class="margem"  ><a class="  dnone texto-menu fonte" href="#">Home</a></li>
                 <li class="margem"  ><a class=" dnone texto-menu fonte" href="susto.html">Quem somos</a></li>
                 <li class="margem"  ><a class=" dnone texto-menu fonte" href="#">Midias socias</a></li>
@@ -26,18 +27,50 @@
 
     </header> 
 
-    <section>
+    <section id="menumob">
         <nav id="menumobile" class="menu-mobile escondido">
             <ul>
                 <li ><a class="texto-menu fonte" href="#">Home</a></li>
                 <li ><a class="texto-menu fonte" href="susto.html">Quem somos</a></li>
                 <li ><a class="texto-menu fonte" href="#">Midias socias</a></li>
                 <li ><a class="texto-menu fonte" href="#">Cadastro</a></li>
-                <li ><a id="esconder" class="texto-menu fonte" href="#">Esconder</a></li>
+                
+                <li ><button id="esconder" class="texto-menu fonte">Esconder</button></li>
                 
             </ul>
         </nav>
     </section>
+
+    <span style="clear: both;"></span>
+
+    <section id="login">
+        <div class="container">
+            <form id="formulario" action="">
+                <div class="fon">
+                    <label for="">Usuario</label>
+                    <input type="text">
+                </div>
+                
+                <div class="fon">
+                    <label for="">Senha</label>
+                    <input type="password">
+                </div>
+
+                <div class="fon1">
+                    <label for="">Manter sessao</label>
+                    <input type="checkbox">
+                </div>
+               
+                <div class="fon">
+                    <button type="submit">Entrar</button>
+
+                </div>
+                
+                
+            </form>
+        </div>
+    </section>
+
 
     <script>
         const menu = document.getElementById("menu")

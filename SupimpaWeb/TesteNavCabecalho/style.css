@@ -63,6 +63,7 @@ html{
 
 .menu-mobile{
     background-color: aquamarine;
+    position: absolute;
     
 }
 
@@ -73,6 +74,37 @@ html{
 .escondido{
     display: none;
 }
+
+
+/* Area de login */
+#login{
+    border: 1px solid red;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.fon{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fon1{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
 
 /* responsividade */
 
@@ -85,8 +117,26 @@ html{
         font-size: 1.7em;
     }
 
+    .fon label{
+        font-size: 3em;
+    }
+    .fon input{
+        width: 300px;
+        height: 30px;
+        font-size: 1.2em;
+    }
+
+    .fon button{
+        width: 300px;
+        height: 30px;
+        font-size: 1.2em;
+    }
+    .fon1 label{
+        font-size: 1.5em;
+    }
     
 }
+
 
 @media (min-width: 824px){
 
@@ -98,8 +148,26 @@ html{
         font-size: 1.5em;
     }
 
-    section{
+    #menumob{
         display: none;
+    }
+
+    .fon label{
+        font-size: 3em;
+    }
+    .fon input{
+        width: 600px;
+        height: 60px;
+        font-size: 1.8em;
+    }
+
+    .fon button{
+        width: 500px;
+        height: 50px;
+        font-size: 1.2em;
+    }
+    .fon1 label{
+        font-size: 1.5em;
     }
 }
 

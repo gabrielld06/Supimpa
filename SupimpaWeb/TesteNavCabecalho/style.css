@@ -13,7 +13,7 @@ ul{
 header{
     margin: 0;
     padding: 0;
-    background-color: aqua;
+    background-color: blue;
 }
 
 a{
@@ -136,7 +136,6 @@ html{
     }
     
 }
-
 
 @media (min-width: 824px){
 
